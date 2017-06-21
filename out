@@ -1,0 +1,36 @@
+
+Analyzing telemetry-parquet_main_summary
+
+
+Expecting 38200 elements, Found 37900 elements
+
+Improper Data: 210
+2017-06-20 03:48:38   60.1 KiB main_summary/v4/submission_date_s3=20170619/sample_id=__HIVE_DEFAULT_PARTITION__/part-r-00042-05e37404-2622-4749-b092-2581126b48f4.snappy.parquet
+
+
+Days Missing Altogether: 6
+set(['20160601', '20160602', '20160603', '20160604', '20160605', '20160606'])
+
+Partitions Missing altogether: 0
+set([])
+
+Files Where Size is Off: 0
+set([])
+
+Analyzing telemetry-backfill_main_summary
+
+
+Expecting 13300 elements, Found 13293 elements
+
+Improper Data: 37
+2017-06-20 16:03:44   60.1 KiB main_summary/v4/submission_date_s3=20170614/sample_id=__HIVE_DEFAULT_PARTITION__/part-r-00042-728f94c3-690b-43b3-b2cc-28edebc68410.snappy.parquet
+
+
+Days Missing Altogether: 0
+set([])
+
+Partitions Missing altogether: 0
+set([])
+
+Files Where Size is Off: 0
+set([])
